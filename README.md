@@ -36,6 +36,9 @@ This end-to-end data analytics project explores patterns in ride-sharing demand 
 
 📁 Cleaned data saved as: `data/processed/uber_sampled_cleaned.csv`
 
+🔗 **Download Full Data & Dashboard Files**:  
+[📂 Google Drive Link](https://drive.google.com/drive/folders/1k9-AQv--hyDYhC2EAJZikWRuA9tuN8ZH?usp=drive_link)
+
 ---
 
 ## 📊 Key Dashboards (Power BI)
@@ -46,11 +49,12 @@ This end-to-end data analytics project explores patterns in ride-sharing demand 
 | **Page 2**: Base Performance & Surge Hotspots | Top-performing dispatch bases, surge zones |
 | **Page 3**: Strategic Business Insights | Actionable metrics for supply planning |
 
-All dashboards use Uber’s dark-blue theme:  
-- Background: `#121212`  
-- Highlight: `#2171ec`  
-- Text: `#ffffff`  
-- Accent: `#e7e8ec`, `#adadad`
+All dashboards use Uber’s signature dark theme:
+
+- **Background**: `#121212`  
+- **Highlight Blue**: `#2171ec`  
+- **Text**: `#ffffff`  
+- **Accents**: `#e7e8ec`, `#adadad`
 
 ---
 
@@ -75,6 +79,8 @@ Ride-Sharing-Insights/
 │
 ├── dashboard/
 │   └── RideSharingInsights.pbix   # Power BI file (if public)
+│   └── powerbi_screenshots/
+│       └── page1_daily_overview.PNG
 │
 ├── requirements.txt
 └── README.md
@@ -84,19 +90,19 @@ Ride-Sharing-Insights/
 
 ## 🔍 Key Insights
 
-- Highest ride activity occurs during 5 PM–8 PM (evening peak).
-- Friday shows the highest surge periods.
-- Bases like **B02598** dominate ride volume.
-- Clear patterns support time-based pricing models.
+- 🚨 **Peak demand** occurs during 5 PM–8 PM (evening commute)
+- 📈 **Friday** sees the highest surge-like periods
+- 🏢 Base **B02598** leads in total rides
+- 📊 Clear patterns support dynamic pricing and fleet optimization
 
 ---
 
 ## 💡 Future Improvements
 
-- Full-year analysis for seasonality
-- Location mapping (e.g., NYC boroughs)
-- Driver performance integration
-- Forecasting models with Prophet or LSTM
+- Analyze full-year data for seasonal trends
+- Integrate geographic analysis (borough-level mapping)
+- Include driver behavior metrics
+- Apply forecasting models (e.g., Prophet, SARIMA)
 
 ---
 
@@ -105,17 +111,17 @@ Ride-Sharing-Insights/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Ride-Sharing-Insights.git
-cd Ride-Sharing-Insights
+git clone https://github.com/D1VYANSHx7877/ride-sharing-demand-forecasting.git
+cd ride-sharing-demand-forecasting
 ```
 
-### 2. Install Dependencies
+### 2. Install Python Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the Notebook
+### 3. Run the Jupyter Notebook
 
 Launch the Jupyter notebook:
 
@@ -123,19 +129,22 @@ Launch the Jupyter notebook:
 jupyter notebook notebooks/ride_sharing_analysis.ipynb
 ```
 
-### 4. Open Power BI
+### 4. Open the Power BI Dashboard
 
-Open the `.pbix` file in the `dashboard/` folder to explore the interactive dashboard.
+Open `RideSharingInsights.pbix` using Power BI Desktop to explore the interactive dashboard.
 
 ---
 
 ## 🙏 Acknowledgements
 
-- Kaggle for the original NYC FHV dataset
-- Uber brand palette for dashboard styling
+- 📊 Kaggle: Uber/FHV NYC Dataset
+- 🎨 Uber Color Theme inspiration
+- 💻 Built on a performance-constrained machine (Lenovo G50-80)
 
 ---
 
-Made with 💻 by **Divyansh Dhadhich**  
-📧 [divyanshdhadhich@gmail.com](mailto:divyanshdhadhich@gmail.com)  
+## 👨‍💻 Author
+
+Made with 💻 and 📊 by **Divyansh Dhadhich**  
+📧 divyanshdhadhich@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/divyansh-dhadhich)
