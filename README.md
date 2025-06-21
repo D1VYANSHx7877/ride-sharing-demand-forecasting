@@ -2,7 +2,7 @@
 
 This end-to-end data analytics project explores patterns in ride-sharing demand and surge pricing using Uber/FHV data. Built with Python and Power BI, it delivers insights into peak hours, base activity, and surge patterns — enabling better operational and pricing decisions.
 
-![Dashboard Preview](output/visualizations/dashboard_page1_preview.png)
+![Dashboard Preview](dashboard/powerbi_screenshots/page1_daily_overview.PNG)
 
 ---
 
