@@ -1,0 +1,15 @@
+# Core libraries
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Time Series Forecasting
+statsmodels==0.14.2
+scipy==1.13.1
+
+# Jupyter Notebook (for local use)
+notebook==7.2.0
+ipykernel==6.29.4
